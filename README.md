@@ -1,6 +1,7 @@
-﻿# my particule 2
+﻿# GravitySpacial
+ 
+![Screenshot from 2022-10-03 14-33-48](https://user-images.githubusercontent.com/91668112/193579239-fc81c77d-7792-4e61-952d-9366004a7ac9.png)
 
-![image](https://user-images.githubusercontent.com/91668112/189925957-c7f4b313-1734-4655-9709-8f99d7931df7.png)
 
 make with SFML
 
@@ -8,9 +9,20 @@ code in C++
 
 using cmake
 
-![image](https://user-images.githubusercontent.com/91668112/189926154-cc27a7ef-c685-4f27-84a5-4481fe991bf1.png)
-
-![image](https://user-images.githubusercontent.com/91668112/189926176-76636926-b358-430b-ab0f-a7f6bc6c3d2d.png)
+Try to remake a fake gravity in space for fun (using velocity and gravity of 2 object
 
 
-left click for "absorb" particules | right click for freeze all
+--------------------- CONTROL -------------------------------
+
+left click for zoom up, right clic for zoom down
+
+ZQSD for move camera
+
+R for control first planet
+
+T for control second planet
+
+Space for reset but should make collision with both planet
+
+-------------------------------------------------------------
+
