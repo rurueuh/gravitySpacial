@@ -28,9 +28,9 @@ set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_LIB_DIR "./SFML/lib")
 
 IF (WIN32)
-    set(SFML_STATIC_LIBRARIES TRUE)
-    link_directories(${SFML_LIB_DIR})
 ENDIF()
+set(SFML_STATIC_LIBRARIES TRUE)
+link_directories(${SFML_LIB_DIR})
 
 add_executable(game ${helloworld_SRC})
 
